@@ -14,6 +14,8 @@
 		18804E9722C3F3BF00C7D32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18804E9522C3F3BF00C7D32C /* LaunchScreen.storyboard */; };
 		18804EA222C3F3BF00C7D32C /* FitFoodieFindzAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18804EA122C3F3BF00C7D32C /* FitFoodieFindzAppTests.swift */; };
 		18804EAD22C3F3BF00C7D32C /* FitFoodieFindzAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18804EAC22C3F3BF00C7D32C /* FitFoodieFindzAppUITests.swift */; };
+		18FA5BBA22C5154D004A3E63 /* ViewControllerTWO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA5BB922C5154D004A3E63 /* ViewControllerTWO.swift */; };
+		18FA5BBC22C51E62004A3E63 /* ViewControllerTHREE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA5BBB22C51E62004A3E63 /* ViewControllerTHREE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		18804EA822C3F3BF00C7D32C /* FitFoodieFindzAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFoodieFindzAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18804EAC22C3F3BF00C7D32C /* FitFoodieFindzAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFoodieFindzAppUITests.swift; sourceTree = "<group>"; };
 		18804EAE22C3F3BF00C7D32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA5BB922C5154D004A3E63 /* ViewControllerTWO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTWO.swift; sourceTree = "<group>"; };
+		18FA5BBB22C51E62004A3E63 /* ViewControllerTHREE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTHREE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				18804E8C22C3F3BE00C7D32C /* AppDelegate.swift */,
 				18804E8E22C3F3BE00C7D32C /* ViewController.swift */,
 				18804E9022C3F3BE00C7D32C /* Main.storyboard */,
+				18FA5BBB22C51E62004A3E63 /* ViewControllerTHREE.swift */,
+				18FA5BB922C5154D004A3E63 /* ViewControllerTWO.swift */,
 				18804E9322C3F3BF00C7D32C /* Assets.xcassets */,
 				18804E9522C3F3BF00C7D32C /* LaunchScreen.storyboard */,
 				18804E9822C3F3BF00C7D32C /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18804E8F22C3F3BE00C7D32C /* ViewController.swift in Sources */,
+				18FA5BBA22C5154D004A3E63 /* ViewControllerTWO.swift in Sources */,
 				18804E8D22C3F3BE00C7D32C /* AppDelegate.swift in Sources */,
+				18FA5BBC22C51E62004A3E63 /* ViewControllerTHREE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D363UNY8Z6;
 				INFOPLIST_FILE = FitFoodieFindzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZP.FitFoodieFindzApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D363UNY8Z6;
 				INFOPLIST_FILE = FitFoodieFindzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZP.FitFoodieFindzApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
